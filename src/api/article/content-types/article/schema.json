@@ -17,6 +17,9 @@
     },
     "date": {
       "type": "date"
+    },
+    "Title": {
+      "type": "string"
     }
   }
 }
