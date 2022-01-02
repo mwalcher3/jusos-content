@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "calenders",
+  "info": {
+    "singularName": "calender",
+    "pluralName": "calenders",
+    "displayName": "calender"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "upcomingevents": {
+      "type": "richtext"
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}
