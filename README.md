@@ -1,3 +1,5 @@
-# Strapi application
+# Strapiapp as Jusos Heidelberg backend
 
-A quick description of your strapi application
+This is a simple test run of the backend component for a possible new Jusos Heidelberg website. 
+
+
