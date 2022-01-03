@@ -20,6 +20,9 @@
     },
     "Title": {
       "type": "string"
+    },
+    "Summary": {
+      "type": "richtext"
     }
   }
 }
