@@ -21,8 +21,8 @@ To run the app locally, make sure git and Node.js (including npm and yarn) are i
 ```
 git clone https://github.com/mwalcher3/jusos-content.git
 ```
-and resolve dependencies via:
-```yarn install``` 
+and resolve dependencies with ```yarn install``` 
+
 To start the App in development mode:
 ```yarn run dev```
 To build the App in production mode:
