@@ -3,24 +3,18 @@
 This is a simple test run of the backend component for a possible new Jusos Heidelberg website. 
 ## Overview
 
-The Strapi app is the headless CMS currently deployed in production mode on Heroku at
+The Strapi app serves as headless content management system. It is currently deployed and run in production mode on Heroku at
 https://jusos-content.herokuapp.com
 
-Content is stored in a PostgresQL database also hosted by Heroku, and can be edited after logging in to
+The content is stored in a PostgresQL database also hosted by Heroku, and can be edited after logging in to
 https://jusos-content.herokuapp.com/admin
-(ask @mwalcher3)
+(ask @mwalcher3 for credentials)
 
-Changes to the content structure (content types, fields etc.) 
-Commits to GitHub are continuously deployed to Heroku.
+The content structure (content types, new fields, etc.) is coded in the app. It can only be altered with the app running locally in development mode by a user with super admin priviledges.
 
-The PostgresQL database is also provided by Heroku.
+To be visible to editors, alterations to the content structure or other changes to the app should be committed to gitHub from where they are being continuously deployed to Heroku.
 
-
-
-
-
-Commits to GitHub are auttomatically deployed to Heroku. The content structure can be altered in development mode. To be in development mode, the strapi app has to run locally and the user has to be a super admin. 
-
+**Note**
 ## Installation
 
 ## Update
