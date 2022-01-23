@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sliders",
+  "info": {
+    "singularName": "slider",
+    "pluralName": "sliders",
+    "displayName": "slider",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "textboxes": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
