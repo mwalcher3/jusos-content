@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_component_images",
+  "info": {
+    "displayName": "images",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "imageTitle": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "parallax",
+        "large",
+        "small"
+      ],
+      "required": true
+    }
+  }
+}

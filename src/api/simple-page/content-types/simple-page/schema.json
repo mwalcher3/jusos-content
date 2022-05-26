@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "simple_pages",
+  "info": {
+    "singularName": "simple-page",
+    "pluralName": "simple-pages",
+    "displayName": "simple-page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "TextBlocks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.text-block"
+    },
+    "Links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.links"
+    },
+    "Images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.images"
+    },
+    "JSON": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.json"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_component_jsons",
+  "info": {
+    "displayName": "JSON",
+    "icon": "angle-double-left"
+  },
+  "options": {},
+  "attributes": {
+    "JSOS": {
+      "type": "json"
+    }
+  }
+}
