@@ -19,6 +19,12 @@
       "type": "component",
       "repeatable": true,
       "component": "menu-components.sub-items"
+    },
+    "dynamic": {
+      "type": "dynamiczone",
+      "components": [
+        "menu-components.relation"
+      ]
     }
   }
 }

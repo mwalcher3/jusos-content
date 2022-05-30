@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_menu_components_relations",
+  "info": {
+    "displayName": "relation",
+    "icon": "calendar-plus"
+  },
+  "options": {},
+  "attributes": {
+    "slider": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::slider.slider"
+    }
+  }
+}
