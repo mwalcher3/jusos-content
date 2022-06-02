@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "image_collages",
+  "info": {
+    "singularName": "image-collage",
+    "pluralName": "image-collages",
+    "displayName": "image-collage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

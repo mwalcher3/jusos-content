@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "picture_pages",
+  "info": {
+    "singularName": "picture-page",
+    "pluralName": "picture-pages",
+    "displayName": "picture-page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    }
+  }
+}

@@ -20,13 +20,24 @@
     "aboutUs": {
       "type": "richtext"
     },
-    "JSON": {
-      "type": "json"
-    },
-    "topic": {
+    "topics": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::topic.topic"
+    },
+    "Links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.links"
+    },
+    "mainImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

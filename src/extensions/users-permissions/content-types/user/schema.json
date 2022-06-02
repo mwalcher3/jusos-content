@@ -62,34 +62,6 @@
       "target": "plugin::users-permissions.role",
       "inversedBy": "users",
       "configurable": false
-    },
-    "personalInformation": {
-      "type": "richtext",
-      "default": "Diese Information wird nur bei Sprechern benutzt "
-    },
-    "Funktion": {
-      "type": "enumeration",
-      "enum": [
-        "Sprecher",
-        "Anderes",
-        "Basismitglied"
-      ],
-      "required": true
-    },
-    "preview": {
-      "type": "text"
-    },
-    "personalImage": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "lastUpdated": {
-      "type": "date"
     }
   }
 }

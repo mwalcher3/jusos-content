@@ -4,7 +4,7 @@
   "info": {
     "singularName": "article",
     "pluralName": "articles",
-    "displayName": "arrticle",
+    "displayName": "artikel",
     "description": ""
   },
   "options": {
@@ -33,6 +33,12 @@
         "files",
         "videos"
       ]
+    },
+    "team": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::team.team",
+      "inversedBy": "artikels"
     }
   }
 }

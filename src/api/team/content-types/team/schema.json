@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teams",
+  "info": {
+    "singularName": "team",
+    "pluralName": "teams",
+    "displayName": "team"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Rolle": {
+      "type": "enumeration",
+      "enum": [
+        "Sprecher",
+        "Anderes"
+      ],
+      "required": true
+    },
+    "andereRollen": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "artikels": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article",
+      "mappedBy": "team"
+    },
+    "previewBild": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "beschreibung": {
+      "type": "richtext"
+    },
+    "geburtsdatum": {
+      "type": "integer"
+    },
+    "socialMediaLink": {
+      "displayName": "social-media-link",
+      "type": "component",
+      "repeatable": true,
+      "component": "component.social-media-link"
+    }
+  }
+}

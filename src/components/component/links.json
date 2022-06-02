@@ -2,14 +2,15 @@
   "collectionName": "components_component_links",
   "info": {
     "displayName": "links",
-    "icon": "adjust"
+    "icon": "adjust",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "URL": {
       "type": "string"
     },
-    "displayedText": {
+    "displayedTitle": {
       "type": "string"
     }
   }

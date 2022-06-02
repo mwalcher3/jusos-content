@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_component_social_media_links",
+  "info": {
+    "displayName": "social-media-link",
+    "icon": "comments"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Instagram",
+        "Facebook",
+        "Twitter",
+        "Spotify",
+        "Youtube",
+        "Tiktok"
+      ]
+    },
+    "URL": {
+      "type": "string"
+    }
+  }
+}

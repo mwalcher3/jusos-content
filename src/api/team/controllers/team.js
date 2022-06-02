@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- *  menu-item controller
+ *  team controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::menu-item.menu-item');
+module.exports = createCoreController('api::team.team');
