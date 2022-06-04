@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "statute_pages",
+  "info": {
+    "singularName": "statute-page",
+    "pluralName": "statute-pages",
+    "displayName": "statute-page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

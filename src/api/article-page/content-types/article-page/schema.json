@@ -29,6 +29,10 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::article.article"
+    },
+    "slug": {
+      "type": "string",
+      "required": true
     }
   }
 }

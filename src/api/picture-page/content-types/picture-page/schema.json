@@ -21,6 +21,10 @@
         "files",
         "videos"
       ]
+    },
+    "slug": {
+      "type": "string",
+      "required": true
     }
   }
 }
