@@ -28,14 +28,14 @@
         "videos"
       ]
     },
-    "users_permissions_users": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "plugin::users-permissions.user"
-    },
     "slug": {
       "type": "string",
       "required": true
+    },
+    "children": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::team.team"
     }
   }
 }
