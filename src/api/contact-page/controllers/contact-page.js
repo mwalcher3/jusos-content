@@ -15,7 +15,6 @@ module.exports = createCoreController('api::contact-page.contact-page', ({strapi
 
     const { data, meta } = await super.find(ctx);
     // some more logic
-    console.log(ctx.query)
 
     return { data, meta };
   }

@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "general_topic_pages",
+  "info": {
+    "singularName": "general-topic-page",
+    "pluralName": "general-topic-pages",
+    "displayName": "general-topic-page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "topics": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::topic.topic"
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

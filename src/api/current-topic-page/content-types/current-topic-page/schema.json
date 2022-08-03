@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "current_topic_pages",
+  "info": {
+    "singularName": "current-topic-page",
+    "pluralName": "current-topic-pages",
+    "displayName": "current-topic-page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "topics": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::topic.topic"
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
