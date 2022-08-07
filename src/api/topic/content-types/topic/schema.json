@@ -32,11 +32,11 @@
         }
       }
     },
-    "typeOfTopic": {
+    "slug": {
       "type": "enumeration",
       "enum": [
-        "aktuellesThema",
-        "allgemeinesThema"
+        "aktuelles",
+        "schwerpunkte"
       ],
       "required": true,
       "pluginOptions": {

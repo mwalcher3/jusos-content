@@ -4,7 +4,8 @@
   "info": {
     "singularName": "general-topic-page",
     "pluralName": "general-topic-pages",
-    "displayName": "general-topic-page"
+    "displayName": "general-topic-page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,6 +23,11 @@
     "slug": {
       "type": "string",
       "required": true
+    },
+    "pop_ups": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::pop-up.pop-up"
     }
   }
 }
