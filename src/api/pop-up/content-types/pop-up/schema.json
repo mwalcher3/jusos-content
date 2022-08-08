@@ -26,6 +26,9 @@
       "repeatable": true,
       "component": "component.bullet-points",
       "required": true
+    },
+    "title": {
+      "type": "string"
     }
   }
 }
