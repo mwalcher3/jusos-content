@@ -10,7 +10,7 @@ const { createCoreController } = require('@strapi/strapi').factories;
 module.exports = createCoreController('api::general-topic-page.general-topic-page', ({strapi}) =>({
     async findPopup(ctx) {
         if (ctx.request.url== '/api/general-topic-page/popup'){
-            ctx.request.url= "/api/general-topic-page?populate[pop_ups][populate][0]=bulletPoints"
+            ctx.request.url= "/api/pop-ups?populate=*"
           }
   
       const { data, meta } = await super.find(ctx);

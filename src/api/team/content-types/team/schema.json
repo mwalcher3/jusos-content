@@ -4,7 +4,8 @@
   "info": {
     "singularName": "team",
     "pluralName": "teams",
-    "displayName": "team"
+    "displayName": "member",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -35,13 +36,14 @@
       "mappedBy": "team"
     },
     "previewBild": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "beschreibung": {
       "type": "richtext"

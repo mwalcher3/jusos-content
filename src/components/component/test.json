@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_component_tests",
+  "info": {
+    "displayName": "test"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "hello": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.bullet-points"
+    }
+  }
+}

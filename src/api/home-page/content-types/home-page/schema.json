@@ -30,15 +30,15 @@
       "repeatable": true,
       "component": "component.links"
     },
-    "mainImage": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
+    "slideShowImages": {
       "allowedTypes": [
         "images",
         "files",
-        "videos"
-      ]
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
