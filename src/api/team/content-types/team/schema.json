@@ -23,9 +23,6 @@
       ],
       "required": true
     },
-    "andereRollen": {
-      "type": "string"
-    },
     "email": {
       "type": "email"
     },
@@ -35,7 +32,7 @@
       "target": "api::article.article",
       "mappedBy": "team"
     },
-    "previewBild": {
+    "previewImage": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -48,14 +45,18 @@
     "beschreibung": {
       "type": "richtext"
     },
-    "geburtsdatum": {
-      "type": "integer"
-    },
     "socialMediaLink": {
       "displayName": "social-media-link",
       "type": "component",
       "repeatable": true,
       "component": "component.social-media-link"
+    },
+    "geburtsdatum": {
+      "type": "date"
+    },
+    "andereRollen": {
+      "type": "text",
+      "default": "eine Zeile pro Rolle"
     }
   }
 }
