@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "members",
+  "info": {
+    "singularName": "member",
+    "pluralName": "members",
+    "displayName": "member",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "role": {
+      "type": "enumeration",
+      "enum": [
+        "Sprecher",
+        "Anderes"
+      ]
+    },
+    "email": {
+      "type": "email"
+    },
+    "previewImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "socialMediaLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.social-media-link"
+    },
+    "dateOfBirth": {
+      "type": "date"
+    },
+    "otherRoles": {
+      "type": "text"
+    }
+  }
+}

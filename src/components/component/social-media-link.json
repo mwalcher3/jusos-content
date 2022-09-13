@@ -1,8 +1,9 @@
 {
   "collectionName": "components_component_social_media_links",
   "info": {
-    "displayName": "social-media-link",
-    "icon": "comments"
+    "displayName": "socialMediaLink",
+    "icon": "comments",
+    "description": ""
   },
   "options": {},
   "attributes": {

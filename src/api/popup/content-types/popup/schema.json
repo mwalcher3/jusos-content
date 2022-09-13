@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "articles",
+  "collectionName": "popups",
   "info": {
-    "singularName": "article",
-    "pluralName": "articles",
-    "displayName": "article",
+    "singularName": "popup",
+    "pluralName": "popups",
+    "displayName": "popup",
     "description": ""
   },
   "options": {
@@ -12,27 +12,24 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "article": {
-      "type": "richtext"
-    },
-    "date": {
-      "type": "date"
-    },
     "title": {
       "type": "string"
     },
-    "summary": {
-      "type": "richtext"
-    },
-    "image": {
+    "icon": {
       "type": "media",
       "multiple": false,
       "required": false,
       "allowedTypes": [
         "images",
         "files",
-        "videos"
+        "videos",
+        "audios"
       ]
+    },
+    "bulletPoints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.bullet-points"
     }
   }
 }

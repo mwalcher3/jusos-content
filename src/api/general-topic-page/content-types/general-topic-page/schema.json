@@ -24,20 +24,21 @@
       "type": "string",
       "required": true
     },
-    "pop_ups": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::pop-up.pop-up"
-    },
     "mainImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "popups": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::popup.popup"
     }
   }
 }

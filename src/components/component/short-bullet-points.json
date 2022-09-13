@@ -1,7 +1,8 @@
 {
   "collectionName": "components_component_short_bullet_points",
   "info": {
-    "displayName": "shortBulletPoints"
+    "displayName": "shortBulletPoint",
+    "description": ""
   },
   "options": {},
   "attributes": {

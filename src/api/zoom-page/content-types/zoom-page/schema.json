@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "zoom_pages",
+  "info": {
+    "singularName": "zoom-page",
+    "pluralName": "zoom-pages",
+    "displayName": "zoom-page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

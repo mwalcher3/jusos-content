@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "calendar_pages",
+  "info": {
+    "singularName": "calendar-page",
+    "pluralName": "calendar-pages",
+    "displayName": "calendar-page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    }
+  }
+}

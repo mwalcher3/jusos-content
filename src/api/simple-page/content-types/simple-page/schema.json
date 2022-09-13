@@ -18,12 +18,12 @@
     "subTitle": {
       "type": "string"
     },
-    "TextBlocks": {
+    "textBlocks": {
       "type": "component",
       "repeatable": true,
       "component": "component.text-block"
     },
-    "Links": {
+    "links": {
       "type": "component",
       "repeatable": true,
       "component": "component.links"

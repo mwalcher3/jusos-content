@@ -23,6 +23,12 @@
     "slug": {
       "type": "string",
       "required": true
+    },
+    "instagramFeed": {
+      "displayName": "instagramFeed",
+      "type": "component",
+      "repeatable": false,
+      "component": "component.instagram-feed"
     }
   }
 }

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_component_instagram_feeds",
+  "info": {
+    "displayName": "instagramFeed"
+  },
+  "options": {},
+  "attributes": {
+    "instagramFields": {
+      "type": "string"
+    }
+  }
+}
