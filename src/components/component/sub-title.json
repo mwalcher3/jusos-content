@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_component_sub_titles",
+  "info": {
+    "displayName": "subTitle",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    }
+  }
+}

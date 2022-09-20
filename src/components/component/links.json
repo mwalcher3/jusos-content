@@ -1,8 +1,8 @@
 {
   "collectionName": "components_component_links",
   "info": {
-    "displayName": "links",
-    "icon": "adjust",
+    "displayName": "externalLinks",
+    "icon": "location-arrow",
     "description": ""
   },
   "options": {},
@@ -12,6 +12,9 @@
     },
     "displayedTitle": {
       "type": "string"
+    },
+    "copyToClipboard": {
+      "type": "boolean"
     }
   }
 }

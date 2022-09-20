@@ -1,13 +1,16 @@
 {
   "collectionName": "components_component_lists",
   "info": {
-    "displayName": "List",
-    "icon": "align-justify"
+    "displayName": "list",
+    "icon": "align-justify",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
+    "bulletPoint": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.short-bullet-points"
     }
   }
 }

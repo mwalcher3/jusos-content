@@ -15,32 +15,21 @@
     "title": {
       "type": "string"
     },
-    "subTitle": {
-      "type": "string"
-    },
-    "textBlocks": {
-      "type": "component",
-      "repeatable": true,
-      "component": "component.text-block"
-    },
-    "links": {
-      "type": "component",
-      "repeatable": true,
-      "component": "component.links"
-    },
-    "Images": {
-      "type": "component",
-      "repeatable": true,
-      "component": "component.images"
-    },
-    "JSON": {
-      "type": "component",
-      "repeatable": true,
-      "component": "component.json"
-    },
     "slug": {
       "type": "string",
       "required": true
+    },
+    "structure": {
+      "type": "dynamiczone",
+      "components": [
+        "component.images",
+        "component.links",
+        "component.list",
+        "component.social-media-link",
+        "component.sub-title",
+        "component.text-block",
+        "component.internal-links"
+      ]
     }
   }
 }

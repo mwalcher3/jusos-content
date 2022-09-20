@@ -4,7 +4,8 @@
   "info": {
     "singularName": "zoom-page",
     "pluralName": "zoom-pages",
-    "displayName": "zoom-page"
+    "displayName": "zoom-page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,6 +21,11 @@
     },
     "description": {
       "type": "richtext"
+    },
+    "zoomMeeting": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.zoom-meeting"
     }
   }
 }

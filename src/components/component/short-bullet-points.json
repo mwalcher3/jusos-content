@@ -1,13 +1,14 @@
 {
   "collectionName": "components_component_short_bullet_points",
   "info": {
-    "displayName": "shortBulletPoint",
-    "description": ""
+    "displayName": "bulletPoint",
+    "description": "",
+    "icon": "align-justify"
   },
   "options": {},
   "attributes": {
-    "shortBulletPoint": {
-      "type": "string"
+    "bulletPoint": {
+      "type": "text"
     }
   }
 }

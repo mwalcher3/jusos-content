@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_component_internal_links",
+  "info": {
+    "displayName": "internalLinks",
+    "icon": "chevron-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "URL": {
+      "type": "string"
+    },
+    "displayedText": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
