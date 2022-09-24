@@ -1,9 +1,11 @@
-'use strict';
+"use strict";
 
 /**
- *  simple-page controller
+ *  homepage controller
  */
 
-const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::simple-page.simple-page');
+const schema = require(`../content-types/simple-page/schema.json`);
+const createPopulatedController = require("../../../helpers/populate");
+
+module.exports = createPopulatedController(`api::simple-page.simple-page`, schema);

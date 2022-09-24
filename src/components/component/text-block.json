@@ -7,13 +7,13 @@
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Paragraph": {
+    "paragraph": {
       "type": "richtext"
     },
-    "Image": {
+    "image": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -23,6 +23,14 @@
         "videos",
         "audios"
       ]
+    },
+    "border": {
+      "type": "boolean"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.images"
     }
   }
 }
