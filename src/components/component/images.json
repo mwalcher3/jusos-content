@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "imageTitle": {
+    "imageDescription": {
       "type": "string"
     },
     "image": {

@@ -31,14 +31,25 @@
       "component": "component.links"
     },
     "slideShowImages": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "internalLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.internal-links"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
     }
   }
 }

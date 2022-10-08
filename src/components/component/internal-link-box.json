@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_component_internal_link_boxes",
+  "info": {
+    "displayName": "internalLinkBox",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "internalLinks": {
+      "displayName": "internalLinks",
+      "type": "component",
+      "repeatable": true,
+      "component": "component.internal-links"
+    }
+  }
+}

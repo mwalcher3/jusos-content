@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "bulletPoint": {
+    "bulletPoints": {
       "type": "component",
       "repeatable": true,
       "component": "component.short-bullet-points"

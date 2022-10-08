@@ -13,21 +13,10 @@
     "paragraph": {
       "type": "richtext"
     },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "border": {
       "type": "boolean"
     },
-    "images": {
+    "image": {
       "type": "component",
       "repeatable": false,
       "component": "component.images"

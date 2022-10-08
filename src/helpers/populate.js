@@ -40,7 +40,6 @@ const getPopulateFromSchema = function (schema) {
    //console.log('schema:', schema)
   return Object.keys(schema.attributes).reduce((currentValue, current) => {
     const attribute = schema.attributes[current]
-    console.log("populated attributes", attribute)
 
    /* if (!['dynamiczone', 'component'].includes(attribute.type)) {
       console.log("adkhaskjhlkfj", attribute)

@@ -33,6 +33,11 @@
         "files",
         "videos"
       ]
+    },
+    "socialMediaLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.social-media-link"
     }
   }
 }

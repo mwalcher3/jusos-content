@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_component_social_media_links_boxes",
+  "info": {
+    "displayName": "socialMediaLinkBox",
+    "icon": "comments",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "socialMediaLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.social-media-link"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
