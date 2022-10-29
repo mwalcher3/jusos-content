@@ -13,12 +13,13 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "icon": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
@@ -29,7 +30,8 @@
     "bulletPoints": {
       "type": "component",
       "repeatable": true,
-      "component": "component.short-bullet-points"
+      "component": "component.short-bullet-points",
+      "required": true
     }
   }
 }

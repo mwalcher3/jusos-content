@@ -13,13 +13,16 @@
   "pluginOptions": {},
   "attributes": {
     "textBoxes": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "date": {
-      "type": "date"
+      "type": "date",
+      "required": true
     }
   }
 }

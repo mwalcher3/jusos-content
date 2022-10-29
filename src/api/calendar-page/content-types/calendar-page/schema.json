@@ -4,7 +4,8 @@
   "info": {
     "singularName": "calendar-page",
     "pluralName": "calendar-pages",
-    "displayName": "calendar-page"
+    "displayName": "calendar-page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,7 +13,21 @@
   "pluginOptions": {},
   "attributes": {
     "slug": {
-      "type": "string"
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "calendar_entries": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::calendar-entry.calendar-entry"
     }
   }
 }
