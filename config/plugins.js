@@ -20,6 +20,30 @@ module.exports = ({ env }) => ({
            },
          },
       }, 
+
+
+      menus: {
+        config: {
+          layouts: {
+            menuItem: { // This is the menu item edit panel.
+              link: [ // This is the "link" tab in the menu item edit panel.
+                {
+                  input: {
+                    label: 'hide from header',
+                    name: 'hide_from_header',
+                    type: 'bool',
+                    description: 'This field will only show in the footer',
+                  },
+                  grid: {
+                    col: 6,
+                  },
+                },
+              ],
+            },
+          },
+        },
+      },
+      
   });
   
   
