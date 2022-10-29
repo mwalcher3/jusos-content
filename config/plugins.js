@@ -32,7 +32,7 @@ module.exports = ({ env }) => ({
                     label: 'hide header',
                     name: 'hide_from_header',
                     type: 'bool',
-                    description: 'This field will not show in the footer',
+                    description: 'This field will be omitted from the header',
                   },
                   grid: {
                     col: 6,
