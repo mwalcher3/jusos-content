@@ -7,8 +7,8 @@ module.exports = plugin => {
   // Define custom attributes for `MenuItem` the same way they would be defined
   // on any other schema.
   const customAttrs = {
-    example_field: {
-      type: 'string',
+    hide_from_header: {
+      type: 'boolean',
     },
   };
 

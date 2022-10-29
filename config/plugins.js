@@ -29,10 +29,10 @@ module.exports = ({ env }) => ({
               link: [ // This is the "link" tab in the menu item edit panel.
                 {
                   input: {
-                    label: 'hide from header',
+                    label: 'hide header',
                     name: 'hide_from_header',
                     type: 'bool',
-                    description: 'This field will only show in the footer',
+                    description: 'This field will not show in the footer',
                   },
                   grid: {
                     col: 6,
