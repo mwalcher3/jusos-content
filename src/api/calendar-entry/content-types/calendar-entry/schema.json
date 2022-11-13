@@ -13,13 +13,16 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "date": {
-      "type": "datetime"
+      "type": "datetime",
+      "required": true
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "links": {
       "type": "component",
@@ -27,7 +30,18 @@
       "component": "component.links"
     },
     "googleMaps": {
+      "type": "text"
+    },
+    "location": {
       "type": "string"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false
+    },
+    "expireAfterEventInDays": {
+      "type": "biginteger",
+      "default": "2"
     }
   }
 }

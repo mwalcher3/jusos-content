@@ -28,6 +28,14 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::calendar-entry.calendar-entry"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.links"
+    },
+    "linkBoxTitle": {
+      "type": "string"
     }
   }
 }
