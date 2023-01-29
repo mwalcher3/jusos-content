@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * slider router.
+ * motion-type router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::slider.slider');
+module.exports = createCoreRouter('api::motion-type.motion-type');

@@ -12,24 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "sliders": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::slider.slider"
-    },
-    "aboutUs": {
-      "type": "richtext"
-    },
-    "topics": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::topic.topic"
-    },
-    "Links": {
-      "type": "component",
-      "repeatable": true,
-      "component": "component.links"
-    },
     "slideShowImages": {
       "type": "media",
       "multiple": true,
@@ -43,10 +25,21 @@
       "repeatable": true,
       "component": "component.internal-links"
     },
-    "articles": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::article.article"
+    "externalLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.links"
+    },
+    "slider": {
+      "displayName": "slider",
+      "type": "component",
+      "repeatable": false,
+      "component": "component.slider"
+    },
+    "introduction": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.introduction"
     }
   }
 }

@@ -21,8 +21,10 @@
       "relation": "oneToMany",
       "target": "api::form.form"
     },
-    "description": {
-      "type": "richtext"
+    "introduction": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.introduction"
     }
   }
 }

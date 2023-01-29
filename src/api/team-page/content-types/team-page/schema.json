@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "image": {
       "type": "media",
       "multiple": false,
@@ -43,13 +40,10 @@
         "audios"
       ]
     },
-    "sprecherDescription": {
-      "type": "richtext"
-    },
-    "otherRolesDescription": {
+    "introduction": {
       "type": "component",
-      "repeatable": true,
-      "component": "component.text-block"
+      "repeatable": false,
+      "component": "component.introduction"
     }
   }
 }

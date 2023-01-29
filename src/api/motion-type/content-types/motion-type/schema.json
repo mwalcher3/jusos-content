@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "motion_types",
+  "info": {
+    "singularName": "motion-type",
+    "pluralName": "motion-types",
+    "displayName": "motion-type",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "motion": {
+      "displayName": "motion",
+      "type": "component",
+      "repeatable": true,
+      "component": "component.motion",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    }
+  }
+}

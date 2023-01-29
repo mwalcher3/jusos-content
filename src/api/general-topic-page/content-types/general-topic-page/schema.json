@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "titleTopics": {
       "type": "string",
       "required": true
     },
@@ -28,15 +28,27 @@
     "mainImage": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ]
     },
-    "popups": {
+    "meetingTypes": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::popup.popup"
+      "target": "api::meeting-type.meeting-type"
+    },
+    "schwerinerManifest": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "titleMeetingTypes": {
+      "type": "string",
+      "required": true
     }
   }
 }

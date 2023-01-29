@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "popups",
+  "collectionName": "meeting_types",
   "info": {
-    "singularName": "popup",
-    "pluralName": "popups",
-    "displayName": "popup",
+    "singularName": "meeting-type",
+    "pluralName": "meeting-types",
+    "displayName": "meeting-type",
     "description": ""
   },
   "options": {
@@ -16,7 +16,7 @@
       "type": "string",
       "required": true
     },
-    "icon": {
+    "image": {
       "type": "media",
       "multiple": false,
       "required": true,
@@ -24,10 +24,8 @@
         "images"
       ]
     },
-    "bulletPoints": {
-      "type": "component",
-      "repeatable": true,
-      "component": "component.short-bullet-points",
+    "text": {
+      "type": "richtext",
       "required": true
     }
   }

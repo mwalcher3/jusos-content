@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_component_sliders",
+  "info": {
+    "displayName": "slider",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    },
+    "calendar_entries": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::calendar-entry.calendar-entry"
+    },
+    "topics": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::topic.topic"
+    },
+    "meeting_types": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::meeting-type.meeting-type"
+    },
+    "sliderInstagram": {
+      "type": "string"
+    }
+  }
+}

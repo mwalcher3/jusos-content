@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_component_motions",
+  "info": {
+    "displayName": "motion",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "document": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

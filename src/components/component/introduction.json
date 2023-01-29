@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_component_introductions",
+  "info": {
+    "displayName": "introduction",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "border": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

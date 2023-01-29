@@ -20,7 +20,7 @@
       "type": "datetime",
       "required": true
     },
-    "description": {
+    "text": {
       "type": "richtext",
       "required": true
     },

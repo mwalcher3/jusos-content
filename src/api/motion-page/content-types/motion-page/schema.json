@@ -19,15 +19,15 @@
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "richtext"
+    "motion_types": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::motion-type.motion-type"
     },
-    "documents": {
-      "allowedTypes": [
-        "files"
-      ],
-      "type": "media",
-      "multiple": true
+    "introduction": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.introduction"
     }
   }
 }

@@ -25,11 +25,10 @@
       "components": [
         "component.images",
         "component.internal-link-box",
-        "component.links",
-        "component.list",
         "component.social-media-links-box",
         "component.sub-title",
-        "component.text-block"
+        "component.text-block",
+        "component.external-link-box"
       ]
     },
     "mainImage": {

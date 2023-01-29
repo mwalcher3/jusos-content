@@ -1,3 +1,6 @@
+import favicon from './extensions/favicon.png';
+
+
 export default {
   config: {
     locales: [
@@ -28,6 +31,14 @@ export default {
       // 'zh-Hans',
       // 'zh',
     ],
+
+    head: {
+      favicon: favicon,
+    },
+
+    auth:{
+      logo: favicon
+    }
   },
   bootstrap(app) {
     console.log(app);

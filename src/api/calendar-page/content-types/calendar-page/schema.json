@@ -16,10 +16,6 @@
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "richtext",
-      "required": true
-    },
     "title": {
       "type": "string",
       "required": true
@@ -36,6 +32,12 @@
     },
     "linkBoxTitle": {
       "type": "string"
+    },
+    "introduction": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.introduction",
+      "required": true
     }
   }
 }

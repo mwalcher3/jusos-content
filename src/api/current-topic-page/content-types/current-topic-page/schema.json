@@ -15,11 +15,6 @@
     "title": {
       "type": "string"
     },
-    "topics": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::topic.topic"
-    },
     "slug": {
       "type": "string",
       "required": true
@@ -29,6 +24,9 @@
       "type": "component",
       "repeatable": false,
       "component": "component.instagram-feed"
+    },
+    "instagramLinkTitle": {
+      "type": "string"
     }
   }
 }

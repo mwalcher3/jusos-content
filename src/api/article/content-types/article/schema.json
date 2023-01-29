@@ -12,22 +12,21 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "article": {
-      "type": "richtext"
+    "text": {
+      "type": "richtext",
+      "required": true
     },
     "date": {
       "type": "date"
     },
     "title": {
-      "type": "string"
-    },
-    "summary": {
-      "type": "richtext"
+      "type": "string",
+      "maxLength": 70
     },
     "image": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images"
       ]
