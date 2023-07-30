@@ -12,14 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "slug": {
       "type": "string",
       "required": true
@@ -43,7 +35,24 @@
     "introduction": {
       "type": "component",
       "repeatable": false,
-      "component": "component.introduction"
+      "component": "component.introduction",
+      "required": true
+    },
+    "mainImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "mainImageSmallScreens": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

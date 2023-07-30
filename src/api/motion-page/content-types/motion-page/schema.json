@@ -27,7 +27,8 @@
     "introduction": {
       "type": "component",
       "repeatable": false,
-      "component": "component.introduction"
+      "component": "component.introduction",
+      "required": true
     }
   }
 }

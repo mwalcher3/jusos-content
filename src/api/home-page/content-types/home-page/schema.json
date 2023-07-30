@@ -39,7 +39,16 @@
     "introduction": {
       "type": "component",
       "repeatable": false,
-      "component": "component.introduction"
+      "component": "component.introduction",
+      "required": true
+    },
+    "slideShowSmallScreens": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

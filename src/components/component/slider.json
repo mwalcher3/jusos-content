@@ -28,6 +28,11 @@
     },
     "sliderInstagram": {
       "type": "string"
+    },
+    "quotes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.quote"
     }
   }
 }
