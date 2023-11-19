@@ -15,7 +15,6 @@
     "@strapi/plugin-i18n": "4.12.1",
     "@strapi/plugin-users-permissions": "4.12.1",
     "@strapi/strapi": "4.12.1",
-    "better-sqlite3": "8.2.0",
     "pg": "^8.11.1",
     "pg-connection-string": "^2.6.1",
     "react": "^17.0.2",
